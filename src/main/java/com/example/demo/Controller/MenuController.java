@@ -16,10 +16,8 @@ public class MenuController {
     @Autowired
     @Qualifier("usuarioServicio")
     private UsuarioService usuarioService;
-
     @GetMapping("/home")
     public String menu() {
-        
         return "Menu"; // retorna la vista Menu.html
     }
     
