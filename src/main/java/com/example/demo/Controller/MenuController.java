@@ -20,6 +20,11 @@ public class MenuController {
     public String menu() {
         return "Menu"; // retorna la vista Menu.html
     }
+
+    public void sumar(int a, int b){
+        int suma = a + b;
+        System.out.println(suma);
+    }
     
     
 }
