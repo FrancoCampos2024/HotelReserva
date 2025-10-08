@@ -15,15 +15,10 @@ public class MenuController {
     @Autowired
     @Qualifier("usuarioServicio")
     private UsuarioService usuarioService;
+    
     @GetMapping("/home")
     public String menu() {
         return "Menu"; // retorna la vista Menu.html
     }
-
-    public void sumar(int a, int b){
-        int suma = a + b;
-        System.out.println(suma);
-    }
-    
     
 }
