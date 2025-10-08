@@ -22,5 +22,4 @@ public class MenuController {
         return "Menu"; // retorna la vista Menu.html
     }
     
-    
 }
